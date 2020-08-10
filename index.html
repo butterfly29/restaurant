@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMO Restaurant</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/footer.css" />
+    <link rel="stylesheet" href="static/css/slideshow.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700|Open+Sans:300,400,600"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <nav
+          id="header-nav"
+          class="navbar fixed-top navbar-expand-lg navbar-dark"
+        >
+          <div class="container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navbar-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--end of #navbarSupportedContent-->
+          </div>
+          <!--end of container-->
+        </nav>
+        <h1>
+          <center><i>il</i> COMO</center>
+        </h1>
+
+        <div class="container">
+          <div class="jumbotron"></div>
+        </div>
+      </header>
+      <main>
+        <div class="row row1">
+          <section>
+            <figure>
+              <img
+                class="portrait"
+                src="/static/images/Chef.jpg"
+                alt="chef"
+                style="max-width: 80%;"
+              />
+            </figure>
+            <h2>Our Story</h2>
+            <h4><i>This is us</i></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </section>
+        </div>
+        <!--end of row1-->
+        <div id="menu-row" class="row">
+          <div class="container">
+            <h4>
+              <center>FRESH & LOCAL</center>
+            </h4>
+            <center>
+              <p><i>Explore our Menus</i></p>
+            </center>
+          </div>
+          <div class="thumbnail-col col-md-3 col-6">
+            <div class="thumbnail">
+              <img
+                src="/static/images/appetizers1.jpg"
+                alt="Appetizers"
+                class="menu-thumbnail"
+                style="width: 100%;"
+              />
+              <div
+                class="middle"
+                data-toggle="modal"
+                data-target="#myModal-appetizers"
+              >
+                <div class="text">Appetizers</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div id="myModal-appetizers" class="modal" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="container">
+                  <div class="top-border left"></div>
+                  <div class="top-border right"></div>
+                  <div class="modal-header">
+                    <h4 class="modal-title align-center">Appetizers</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Caprese<br />Crostini misti<br />Bruschetta<br />Frutti Di
+                      Mare<br />Calamari friti<br />Beef Carpaccio<br />
+                    </p>
+                  </div>
+                </div>
+                <!--end of container-->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn submit-btn"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+              <!--end of modal-content-->
+            </div>
+            <!--end of modal-dialog-->
+          </div>
+          <!--end of my modal-->
+          <div class="thumbnail-col col-md-3 col-6">
+            <div class="thumbnail">
+              <img
+                src="/static/images/soup2.jpg"
+                alt="Soup"
+                class="menu-thumbnail"
+                style="width: 100%;"
+              />
+              <div
+                class="middle"
+                data-toggle="modal"
+                data-target="#myModal-soup"
+              >
+                <div class="text">Soups</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div id="myModal-soup" class="modal" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="container">
+                  <div class="top-border left"></div>
+                  <div class="top-border right"></div>
+                  <div class="modal-header">
+                    <h4 class="modal-title align-center">Soups</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h5 style="padding-top: 20px;">Soup</h5>
+                    <p>
+                      Minestrone<br />Zuppa di Giorno<br />Frutti Di Mare<br />
+                      Zuppa di Pomodoro<br />Tuscan White Bean<br />
+                    </p>
+                    <h5 style="padding-top: 20px;">Salad</h5>
+                    <p>
+                      Instalata di Ruchetta con Aranci<br />Insalata Milanese<br />
+                    </p>
+                  </div>
+                </div>
+                <!--end of container-->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn submit-btn"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+              <!--end of modal-content-->
+            </div>
+            <!--end of modal-dialog-->
+          </div>
+          <!--end of my modal-->
+          <div class="thumbnail-col col-md-3 col-6">
+            <div class="thumbnail">
+              <img
+                src="/static/images/maincourse1.jpg"
+                alt="Main Course"
+                class="menu-thumbnail"
+                style="width: 100%;"
+              />
+              <div
+                class="middle"
+                data-toggle="modal"
+                data-target="#myModal-main"
+              >
+                <div class="text">Main</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div id="myModal-main" class="modal" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="container">
+                  <div class="top-border left"></div>
+                  <div class="top-border right"></div>
+                  <div class="modal-header">
+                    <h4 class="modal-title align-center">Main</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h5 style="padding-top: 20px;">Pasta</h5>
+                    <p>
+                      Spaghetti Puttanesca<br />Fettuccine Carbonara<br />Linguine
+                      Alla Vongole<br />
+                      Melanzane Parmigiana<br />Salsiccia Alla Calabrese<br />Bucatini
+                      All'Amatriciana<br />Linguine Alle Vongole<br />
+                    </p>
+                    <h5 style="padding-top: 20px;">Meat</h5>
+                    <p>Pollo Alla Romana<br /></p>
+                    <h5 style="padding-top: 20px;">Fish</h5>
+                    <p>Scaloppine Alla Milanese<br /></p>
+                  </div>
+                </div>
+                <!--end of container-->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn submit-btn"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+              <!--end of modal-content-->
+            </div>
+            <!--end of modal-dialog-->
+          </div>
+          <!--end of my modal-->
+          <div class="thumbnail-col col-md-3 col-6">
+            <div class="thumbnail">
+              <img
+                src="/static/images/dessert2.jpg"
+                alt="Dessert"
+                class="menu-thumbnail"
+                style="width: 100%;"
+              />
+              <div
+                class="middle"
+                data-toggle="modal"
+                data-target="#myModal-dessert"
+              >
+                <div class="text">Dessert</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of #menu-row-->
+        <div id="testimonials" class="row">
+          <div class="container">
+            <h4 style="padding-bottom: 20px;"><center>Testimonials</center></h4>
+            <br />
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div div class="numbertext">
+                  1 / 3
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante.
+                  </p>
+                  <footer>
+                    <cite title="Source Title">
+                      <a>JOHN DOE</a>
+                    </cite>
+                  </footer>
+                </blockquote>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">
+                  2 / 3
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante.
+                  </p>
+                  <footer>
+                    <cite title="Source Title">
+                      <a>JOHN DOE</a>
+                    </cite>
+                  </footer>
+                </blockquote>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">
+                  3 / 3
+                </div>
+                <blockquote>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante.
+                  </p>
+                  <footer>
+                    <cite title="Source Title">
+                      <a>JOHN DOE</a>
+                    </cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <!--end of slideshow-container-->
+            <br />
+            <div style="text-align: center; margin-top: 20px;">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+          <!--end of container-->
+        </div>
+        <!--end of #testimonials-->
+      </main>
+    </div>
+    <!--end of #content-->
+    <footer>
+      <div class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section
+              id="hours"
+              class="col-sm-6 col-md-3"
+              style="padding-left: 35px;"
+            >
+              <span><h6>Contact:</h6></span><br />
+              Phone: +39 300 xxxxxx<br />
+              Email: nicoleta@email.com<br /><br />
+              <span><h6>Opening Hours:</h6></span><br />
+              Mon-Thu: 11:15am - 11:00pm<br />
+              Fri-Sun: 11:15am - 12:00pm<br /><br />
+              <span><h6>Address:</h6></span><br />
+              Piazza della Repubblica<br />
+              Florence, Italy
+              <hr class="visible-xs" />
+            </section>
+            <section id="contact-us" class="col-sm-6 col-md-6">
+              <h4 class="title">Contact Us</h4>
+              <form class="contact-form row-form">
+                <div class="form-field col x-50">
+                  <input
+                    id="name"
+                    class="input-text js-input"
+                    type="text"
+                    required
+                  />
+                  <label class="label" for="name">Name</label>
+                </div>
+                <div class="form-field col x-50">
+                  <input
+                    id="email"
+                    class="input-text js-input"
+                    type="email"
+                    required
+                  />
+                  <label class="label" for="email">E-mail</label>
+                </div>
+                <div class="form-field col x-100">
+                  <input
+                    id="message"
+                    class="input-text js-input"
+                    type="text"
+                    required
+                  />
+                  <label class="label" for="message">Message</label>
+                </div>
+                <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit" />
+                </div>
+              </form>
+            </section>
+            <section id="about" class="col-sm-12 col-md-3">
+              <div class="top-border left"></div>
+              <div class="top-border right"></div>
+              <span><h4>Our Story</h4></span><br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </section>
+          </div>
+        </div>
+        <div class="container">
+          <div class="links-footer col-sm-12 align-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="menu.html">Menu</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Chef John Smith</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-belt">
+          <img class="img-belt" src="/static/images/appetizers1.jpg" />
+          <img class="img-belt" src="/static/images/soup3.jpg" />
+          <img class="img-belt" src="/static/images/dessert2.jpg" />
+          <img class="img-belt" src="/static/images/maincourse1.jpg" />
+          <img class="img-belt" src="/static/images/dessert1.jpg" />
+          <img class="img-belt" src="/static/images/soup2.jpg" />
+          <img
+            class="img-belt d-none d-md-block d-lg-none"
+            src="/static/images/maincourse3.jpg"
+          />
+          <img
+            class="img-belt d-none d-sm-block"
+            src="/static/images/maincourse4.jpg"
+          />
+          <img
+            class="img-belt d-none d-sm-block"
+            src="/static/images/pizza.jpg"
+          />
+          <img
+            class="img-belt d-none d-sm-block"
+            src="/static/images/dessert3.jpg"
+          />
+          <img
+            class="img-belt d-none d-sm-block"
+            src="/static/images/soup4.jpg"
+          />
+        </div>
+        <br />
+        <div class="text-center" style="color: #888;">
+          &copy; Copyright Nicoleta Simion 2020
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
