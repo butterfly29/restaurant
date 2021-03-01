@@ -50,7 +50,11 @@ h1 {
 .row {
   margin-top: 4rem;
 }
-
+.jumbotron {
+  background-size: contain;
+  box-shadow: 0 0 50px rgb(85, 85, 85);
+}
+/*HOME PAGE/
 /*first row*/
 .row1 {
   position: relative;
@@ -137,7 +141,8 @@ figure:after {
   margin: 30px auto;
 }
 /*popup title*/
-.modal-header {
+.modal-header,
+.modal-body h4 {
   position: relative;
   margin: -35px auto;
   display: inline-block;
@@ -188,9 +193,37 @@ figure:after {
 .submit-btn:hover {
   color: white;
 }
-.jumbotron {
-  background-size: contain;
-  box-shadow: 0 0 50px rgb(85, 85, 85);
+
+/*MENU PAGE*/
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.menu-content .container {
+  position: relative;
+  width: 900px;
+  max-width: 80%;
+  border: 2px solid #333;
+  border-top: none;
+  text-align: center;
+  margin: 30px auto;
+}
+.menu-title,
+.menu-body h4 {
+  position: relative;
+  margin: -35px auto;
+  display: inline-block;
+  color: #888;
+  border: none;
+}
+.menu-body p {
+  width: 90%;
+  margin: 20px auto 40px auto;
+  line-height: 30px;
+  color: white;
 }
 /*CONTACT PAGE*/
 /*reservation and map row*/
